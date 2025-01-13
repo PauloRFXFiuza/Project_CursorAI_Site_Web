@@ -1,0 +1,35 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #1a202c; /* Fundo escuro */
+    color: #e2e8f0; /* Texto branco/cinza */
+}
+
+h2 {
+    color: #63b3ed; /* Azul para títulos */
+}
+
+.bg-gray-800 {
+    background-color: #2d3748; /* Cor de fundo dos cartões */
+}
+
+.text-gray-400 {
+    color: #a0aec0; /* Texto cinza claro */
+}
+
+.shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .grid-cols-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .grid-cols-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+} 
